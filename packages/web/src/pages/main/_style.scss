@@ -1,0 +1,67 @@
+// 관리자 페이지 공통 CSS
+@mixin AdminPageCommonCSS {
+  width: 100%;
+  padding: 10px 20px;
+
+  & .title-area {
+    padding: 5px 0;
+    & > em {
+      font-size: 14px;
+      font-weight: bolder;
+    }
+  }
+
+  & .tab-area {
+    padding: 10px 0;
+  }
+
+  & .button-area {
+  }
+
+  & .inquiry-area {
+    padding: 10px 0;
+
+    & > .inquiry {
+      & > label {
+        font-size: 12px;
+        padding-left: 10px;
+
+        &.no-label-space {
+          padding-left: 0;
+        }
+      }
+      & > em {
+        font-size: 12px;
+      }
+    }
+  }
+
+  & .description-area {
+    padding: 10px 0;
+
+    & > .description {
+      padding: 10px 0;
+      border-top: 1px solid getColor(gray-6);
+      border-bottom: 1px solid getColor(gray-6);
+
+      & > * {
+        & > em {
+          padding: 5px 10px;
+          font-size: 12px;
+        }
+
+        & > em.title {
+          font-weight: bolder;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  & .table-area {
+    padding: 10px 0;
+    height: 100%;
+  }
+}
+
+@import './Root/Root';

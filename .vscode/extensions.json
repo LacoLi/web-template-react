@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "formulahendry.auto-close-tag",
+    "vscode-icons-team.vscode-icons",
+    "esbenp.prettier-vscode",
+    "huuums.vscode-fast-folder-structure"
+  ]
+}

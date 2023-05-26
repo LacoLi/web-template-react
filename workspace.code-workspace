@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "path": "packages/web"
+    },
+    {
+      "name": "[root]",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "[root]/.yarn/sdks/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+  }
+}

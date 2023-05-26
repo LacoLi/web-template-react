@@ -1,0 +1,35 @@
+/* Antd Design */
+@import 'antd/dist/antd.css';
+
+/* Custom Design */
+@import './resource/style';
+@import './common/style';
+@import './lib/style';
+@import './layout/style';
+@import './container/style';
+@import './component/style';
+@import './pages/style';
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: cloud-gothic-030;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+em {
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
